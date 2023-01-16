@@ -76,9 +76,10 @@ header nav {
 #mission{
     min-height: 700px;
     align-items: center;
-    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1u1wylc*_ga*ODUxMzk3OTMwNC4xNjczNzk5MTcy*_ga_3LRZM6TM9L*MTY3MzgxMzQ5My40LjEuMTY3MzgxNTU5NS41NS4wLjA.") no-repeat;
-    background-size: 100%;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1u1wylc*_ga*ODUxMzk3OTMwNC4xNjczNzk5MTcy*_ga_3LRZM6TM9L*MTY3MzgxMzQ5My40LjEuMTY3MzgxNTU5NS41NS4wLjA.");
+    background-size: cover;
     background-position: center;
+    display:flex;
 }
 
 #banner{
@@ -106,13 +107,12 @@ header nav {
 /* location configs */
 
 #locations{
-    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*112rfdq*_ga*ODUxMzk3OTMwNC4xNjczNzk5MTcy*_ga_3LRZM6TM9L*MTY3MzgxOTY0NS41LjEuMTY3MzgyMDU3OS41Ny4wLjA.") no-repeat;
-    background-size: 100%;
-    background-position: center;
-    min-height: 500px;
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*2veigr*_ga*ODUxMzk3OTMwNC4xNjczNzk5MTcy*_ga_3LRZM6TM9L*MTY3Mzg4NTMwNS44LjEuMTY3Mzg5MDUwOC41OC4wLjA.") no-repeat;
+    background-size: cover;
+    background-position:center;
+    /* min-height: 500px;
     justify-content: center;
-    flex-direction: column;
-    display: flex;
+    flex-direction: column; */
 }
 
 #locations h2{
