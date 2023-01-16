@@ -25,13 +25,14 @@ main{
 
 /* header configs */
 header{
-    height: 69px;
+    min-height: 69px;
     border-bottom: 1px solid seashell;
     position: fixed;
     z-index: 10;
     width: 100%;
     align-items: center;
     background-color: black;
+    flex-grow: 1;
 }
 header nav a {
     text-decoration: underline;
