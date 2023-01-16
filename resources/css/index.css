@@ -1,4 +1,8 @@
 /* universal styles */
+*{
+    box-sizing: border-box;
+}
+
 html{
     min-width: 300px;
 }
@@ -20,9 +24,23 @@ body {
 }
 
 main{
-    padding-top: 69px;
+    padding: 70px 0 0 0;
 }
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li, li a{
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
 /* header configs */
 header{
     min-height: 69px;
@@ -33,12 +51,16 @@ header{
     align-items: center;
     background-color: black;
     flex-grow: 1;
+    padding: 10px 0px 0px 10px;
 }
 header nav a {
     text-decoration: underline;
     color: seashell;
 }
 
+a:hover{
+    color: rgb(247, 130, 46)
+}
 header nav {
     text-align: right;
     flex-grow: 1;
@@ -47,13 +69,12 @@ header nav {
 
 .logo {
     height: 50px;
-    padding-left: 10px;
 }
 
 /* mission configs */
 
 #mission{
-    height: 700px;
+    min-height: 700px;
     align-items: center;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1u1wylc*_ga*ODUxMzk3OTMwNC4xNjczNzk5MTcy*_ga_3LRZM6TM9L*MTY3MzgxMzQ5My40LjEuMTY3MzgxNTU5NS41NS4wLjA.");
 }
@@ -61,28 +82,24 @@ header nav {
 #banner{
     width: 100%;
     background-color: black;
-    align-items: center;
 }
 
 /* tea of month config */
-
 #tea-of-month{
-    padding-bottom: 20px;
+    margin: 0 0 20px 0;
 }
-.items{
-    padding: 5px;
-    justify-content: center;
+
+
+.item{
+    margin: 0px 20px 10px 0px;
 }
+
 .item img{
+    display: flex;
     height: 200px;
     width: 300px;
-    margin: 10px;
 }
 
-.item span{
-    display: block;
-    text-align: center;
-}
 
 /* location configs */
 
@@ -92,7 +109,6 @@ header nav {
     justify-content: center;
     flex-direction: column;
     display: flex;
-
 }
 
 #locations h2{
@@ -104,14 +120,10 @@ header nav {
     background-color: black;
     margin: 20px;
     width: 300px;
-    height: 300px;
-    align-items: center;
-    display: fixed;
-    flex-direction: column;
-    justify-content: center;
+    min-height: 300px;
 }
 
 footer{
     text-align: left;
-    padding: 10px;
+    padding: 20px;
 }
